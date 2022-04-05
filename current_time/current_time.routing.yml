@@ -1,0 +1,7 @@
+current_time.time_config:
+  path: '/admin/config/current-time'
+  defaults:
+    _title: 'Current Time Settings'
+    _form: 'Drupal\current_time\Form\CurrentTimeForm'
+  requirements:
+    _permission: 'administer site configuration'

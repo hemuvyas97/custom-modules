@@ -1,0 +1,4 @@
+services:
+  current_time.helper:
+    class: Drupal\current_time\Services\CurrentTimeService
+    arguments: ['@config.factory']

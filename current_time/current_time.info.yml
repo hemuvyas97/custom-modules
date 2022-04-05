@@ -1,0 +1,5 @@
+name: Current Time
+type: module
+description: Module provides current time selected for the site.
+package: Custom
+core_version_requirement: ^9

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Contains general hook definitions and helper functions of this module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function current_time_theme($existing, $type, $theme, $path) {
+  return [
+    'current_time' => [
+      'variables' => ['item' => [], 'lazy_builder_var' => NULL],
+    ],
+  ];
+}
